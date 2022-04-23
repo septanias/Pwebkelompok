@@ -1,0 +1,79 @@
+.header {
+	background-color: black;
+}
+a:hover {
+	color: white;
+}
+.bawah {
+	background-color: black;
+}
+.alamat {
+	color: white;
+}
+.terbaru {
+	color: white;
+}
+.link {
+	color: white;
+}
+#email {
+	color: white;
+}
+.copy {
+	color: white;
+}
+.term {
+	color: white;
+}
+.beranda {
+	background-color: white;
+}
+.tabel {
+	color: black;
+	font-size: large;
+	text-align: left;
+}
+nav ul {
+	background: white;
+	padding: 0px;
+	list-style: none;
+	position: relative;
+	width: 100%;
+}
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+nav ul li {
+	float: left;
+}		
+nav ul li:hover {
+	background-color: white;
+}
+nav ul li a {
+	display: block;
+	padding: 20px 30px;
+	text-decoration: none;
+	color: black;
+}
+nav ul li a:hover{
+	color: green;
+}
+nav ul ul {
+	display: none;
+	background: white;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	max-width: 300px;
+	width: auto;
+}
+nav ul ul li {
+	float: none;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	position: relative;
+}
+nav ul li:hover > ul {
+	display: block;
+}
