@@ -5,6 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Inspektorat Provinsi Jawa Tengah</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		function klik() {
+			alert("Apakah Email sudah benar?");
+		}
+	</script>
 </head>
 <body>
 	<div class="header">
@@ -98,11 +103,12 @@
 			<img src="01gratif2022.jpeg" width="60%">
 			</center>
 		</table>
-	</div>
+	</div> 
 	<div>
 		<center>
 		<table width="90%">
 			<tr height="200">
+				<tr onmouseout="this.bgColor='lightblue'">
 				<td>
 					<p class="tabel">LHKPN</p>
 					<ul>
@@ -128,7 +134,9 @@
 					</ul>
 				</td>
 			</tr>
+			</tr>
 			<tr height="200">
+				<tr onmouseout="this.bgColor='grey'">
 				<td>
 					<p class="tabel">Gratifikasi</p>
 					<ul>
@@ -136,13 +144,16 @@
 					</ul>
 				</td>
 			</tr>
-			<tr height="200">
+			</tr>
+			<tr height="200" >
+				<tr onmouseout="this.bgColor='wheat'">
 				<td>
 					<p class="tabel">Saber Pungli</p>
 					<ul>
 						<li><a href="https://inspektorat.jatengprov.go.id/17/detailpost/rapat-evaluasi-satgas-saber-pungli-tahun-2021">RAPAT EVALUASI SATGAS SABER PUNGLI TAHUN 2021</a></li>
 					</ul>
 				</td>
+			</tr>
 			</tr>
 		</table>
 		</center>
@@ -183,7 +194,7 @@
 					<center>
 					<label id="email" for="email">Langganan ke newsletter kami untuk mendapatkan berita penting dan penawaran terbaik:</label></br></br>
 					<input type="email" id="email" name="Email">
-					<input type="submit" name="kirim" value="Langganan">
+					<input type="submit" name="kirim" value="Langganan" onclick="klik()">
 					</center>
 				</td>
 				</center>
